@@ -1,8 +1,8 @@
-package com.sample.jetpackcomposesample.data.usecases
+package com.sample.jetpackcomposesample.domain.usecases
+
 import MockTestUtil
 import com.sample.jetpackcomposesample.data.model.RepositoriesResponse
 import com.sample.jetpackcomposesample.data.repository.Repository
-import com.sample.jetpackcomposesample.domain.usecases.LoadRepositoriesUseCase
 import com.sample.jetpackcomposesample.util.NetworkResult
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery

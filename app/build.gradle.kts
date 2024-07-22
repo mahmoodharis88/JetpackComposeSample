@@ -131,6 +131,7 @@ dependencies {
     testImplementation(libs.coroutines.test)
     testImplementation(libs.core.test)
     testImplementation(libs.mock)
+    testImplementation(libs.mock.inline)
     testImplementation(libs.mock.webserver)
 }
 

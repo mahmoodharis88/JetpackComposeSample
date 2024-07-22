@@ -16,6 +16,7 @@ lottie = "6.4.1"
 coroutines = "1.8.1"
 coreTest = "2.2.0"
 mock = "1.13.11"
+mockInline = "5.2.0"
 navHitlVersion = "1.2.0"
 uiController = "0.34.0"
 coreKtx = "1.13.1"
@@ -106,6 +107,10 @@ core-test = { group = "androidx.arch.core", name = "core-testing", version.ref =
 
 # Mock
 mock = { group = "io.mockk", name = "mockk", version.ref = "mock" }
+
+# Mock-inline
+mock-inline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockInline" }
+
 
 # Mock Webserver
 mock-webserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okhttp" }
